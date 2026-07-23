@@ -25,7 +25,7 @@ function AboutPage() {
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">
             Small team, big mission: help every local business go digital
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-white/70">
+          <p className="mx-auto mt-5 max-w-2xl text-white/85">
             We started WebDost because we saw incredible local businesses lose customers just because they weren't visible online. Not anymore.
           </p>
         </div>

@@ -88,7 +88,7 @@ function ContactPage() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-[color:var(--primary-glow)]">Contact</p>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">Let's build your website</h1>
-          <p className="mx-auto mt-4 max-w-xl text-white/70">
+          <p className="mx-auto mt-4 max-w-xl text-white/85">
             Tell us about your business. We reply within 2 hours on working days.
           </p>
         </div>
