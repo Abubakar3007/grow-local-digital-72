@@ -1,5 +1,5 @@
 export const site = {
-  name: "PixelGrow Digital",
+  name: "WebDost",
   tagline: "Helping local businesses grow with powerful websites and digital solutions",
   phone: "+91 98765 43210",
   whatsappNumber: "919876543210",

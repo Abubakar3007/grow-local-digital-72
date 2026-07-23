@@ -9,9 +9,9 @@ import realestate from "@/assets/portfolio-realestate.jpg";
 export const Route = createFileRoute("/portfolio")({
   head: () => ({
     meta: [
-      { title: "Portfolio — PixelGrow Digital" },
+      { title: "Portfolio — WebDost" },
       { name: "description", content: "See websites we've built for gyms, salons, shops, cafes and real-estate businesses across India." },
-      { property: "og:title", content: "Portfolio — PixelGrow Digital" },
+      { property: "og:title", content: "Portfolio — WebDost" },
       { property: "og:description", content: "See our recent website work for local Indian businesses." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/portfolio" },

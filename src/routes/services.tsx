@@ -4,9 +4,9 @@ import { Dumbbell, Globe, Layout, MessageCircle, Search, ShoppingBag, CheckCircl
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — PixelGrow Digital" },
+      { title: "Services — WebDost" },
       { name: "description", content: "Website design for gyms, business websites, landing pages, WhatsApp integration and SEO for local businesses." },
-      { property: "og:title", content: "Services — PixelGrow Digital" },
+      { property: "og:title", content: "Services — WebDost" },
       { property: "og:description", content: "Website design, landing pages, WhatsApp integration and SEO for local businesses." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/services" },

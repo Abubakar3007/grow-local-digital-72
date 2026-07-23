@@ -4,9 +4,9 @@ import { Check, X, ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/pricing")({
   head: () => ({
     meta: [
-      { title: "Pricing — PixelGrow Digital" },
+      { title: "Pricing — WebDost" },
       { name: "description", content: "Transparent one-time pricing for professional websites. Plans starting from ₹2,999." },
-      { property: "og:title", content: "Pricing — PixelGrow Digital" },
+      { property: "og:title", content: "Pricing — WebDost" },
       { property: "og:description", content: "Affordable website plans starting from ₹2,999 one-time." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/pricing" },

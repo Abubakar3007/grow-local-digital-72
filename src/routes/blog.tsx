@@ -6,13 +6,13 @@ import { BlogLeadCTA } from "@/components/BlogLeadCTA";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Blog & Resources — PixelGrow Digital" },
+      { title: "Blog & Resources — WebDost" },
       {
         name: "description",
         content:
           "Practical guides on websites, SEO, WhatsApp marketing, and lead generation for gym owners and local businesses in India.",
       },
-      { property: "og:title", content: "Blog & Resources — PixelGrow Digital" },
+      { property: "og:title", content: "Blog & Resources — WebDost" },
       {
         property: "og:description",
         content: "Growth guides for gym owners and local businesses.",

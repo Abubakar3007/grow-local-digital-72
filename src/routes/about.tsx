@@ -4,9 +4,9 @@ import { Heart, Target, Users, ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — PixelGrow Digital" },
+      { title: "About — WebDost" },
       { name: "description", content: "We're a small team helping Indian local businesses go digital with professional, affordable websites." },
-      { property: "og:title", content: "About — PixelGrow Digital" },
+      { property: "og:title", content: "About — WebDost" },
       { property: "og:description", content: "We help local Indian businesses grow with professional websites." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/about" },
@@ -26,7 +26,7 @@ function AboutPage() {
             Small team, big mission: help every local business go digital
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-white/70">
-            We started PixelGrow Digital because we saw incredible local businesses lose customers just because they weren't visible online. Not anymore.
+            We started WebDost because we saw incredible local businesses lose customers just because they weren't visible online. Not anymore.
           </p>
         </div>
       </section>

@@ -7,9 +7,9 @@ import { site, whatsappLink } from "@/lib/site";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — PixelGrow Digital" },
+      { title: "Contact — WebDost" },
       { name: "description", content: "Get in touch to start your website project. WhatsApp, email or fill the form — we reply within 2 hours." },
-      { property: "og:title", content: "Contact — PixelGrow Digital" },
+      { property: "og:title", content: "Contact — WebDost" },
       { property: "og:description", content: "Contact us to start your website project." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/contact" },

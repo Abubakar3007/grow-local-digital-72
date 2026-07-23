@@ -18,13 +18,13 @@ import { whatsappLink } from "@/lib/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PixelGrow Digital — Websites that Bring Customers" },
+      { title: "WebDost — Websites that Bring Customers" },
       {
         name: "description",
         content:
           "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days.",
       },
-      { property: "og:title", content: "PixelGrow Digital — Websites that Bring Customers" },
+      { property: "og:title", content: "WebDost — Websites that Bring Customers" },
       { property: "og:description", content: "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
