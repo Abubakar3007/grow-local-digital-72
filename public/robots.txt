@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://grow-local-digital-72.lovable.app/sitemap.xml
