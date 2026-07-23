@@ -101,7 +101,7 @@ function ContactPage() {
                       onChange={(e) => setState((s) => ({ ...s, phone: e.target.value }))}
                       maxLength={20}
                       className="mt-1 w-full rounded-xl border border-input bg-background px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-primary"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 85959 25473"
                     />
                     {errors.phone && <p className="mt-1 text-xs text-destructive">{errors.phone}</p>}
                   </div>
