@@ -41,7 +41,7 @@ function AboutPage() {
               template-clone designs. Just clean, modern websites that bring in real customers.
             </p>
             <p className="mt-6 text-muted-foreground">
-              Since 2022, we've delivered 200+ websites to gyms, salons, shops, cafes and service
+              Since 2022, we've delivered 50+ websites to gyms, salons, shops, cafes and service
               providers across India. Our clients don't need to understand tech — they just tell us
               their business, and we handle the rest. Website ready in 7 days, live on Google, and
               ready to grow.

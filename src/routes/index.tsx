@@ -93,7 +93,7 @@ function Home() {
 
             <div className="mt-14 grid grid-cols-3 gap-6 border-t border-white/10 pt-8 sm:gap-10">
               {[
-                { k: "200+", v: "Websites Delivered" },
+                { k: "50+", v: "Websites Delivered" },
                 { k: "7 Days", v: "Average Launch" },
                 { k: "4.9/5", v: "Client Rating" },
               ].map((s) => (
