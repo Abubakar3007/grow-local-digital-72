@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { posts } from "@/lib/blog";
 
-const BASE_URL = "";
+const BASE_URL = "https://grow-local-digital-72.lovable.app";
 
 interface SitemapEntry {
   path: string;
