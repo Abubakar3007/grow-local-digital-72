@@ -19,6 +19,7 @@ export const Route = createFileRoute("/blog/$slug")({
       };
     }
     const { post } = loaderData;
+    const url = `https://grow-local-digital-72.lovable.app/blog/${post.slug}`;
     return {
       meta: [
         { title: `${post.title} — WebDost` },
@@ -26,9 +27,29 @@ export const Route = createFileRoute("/blog/$slug")({
         { property: "og:title", content: post.title },
         { property: "og:description", content: post.description },
         { property: "og:type", content: "article" },
+        { property: "og:url", content: url },
         { name: "twitter:card", content: "summary_large_image" },
       ],
-      links: [{ rel: "canonical", href: `/blog/${post.slug}` }],
+      links: [{ rel: "canonical", href: url }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: post.title,
+            description: post.description,
+            datePublished: post.date,
+            author: { "@type": "Organization", name: "WebDost" },
+            publisher: {
+              "@type": "Organization",
+              name: "WebDost",
+              url: "https://grow-local-digital-72.lovable.app",
+            },
+            mainEntityOfPage: url,
+          }),
+        },
+      ],
     };
   },
   notFoundComponent: PostNotFound,
