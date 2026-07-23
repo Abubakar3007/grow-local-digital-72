@@ -64,7 +64,7 @@ function ServicesPage() {
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">
             Websites & digital services built to grow your business
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-white/70">
+          <p className="mx-auto mt-5 max-w-2xl text-white/85">
             Everything a local business needs to look professional online and turn traffic into customers.
           </p>
         </div>

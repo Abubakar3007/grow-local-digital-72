@@ -14,7 +14,7 @@ export function BlogLeadCTA({ audience = "business" }: { audience?: string }) {
       <h3 className="mt-2 text-2xl font-extrabold tracking-tight sm:text-3xl">
         Ready to turn your {audience} into a lead-generating machine?
       </h3>
-      <p className="mt-3 max-w-2xl text-sm text-white/70">
+      <p className="mt-3 max-w-2xl text-sm text-white/85">
         Get a professional, mobile-first website with WhatsApp integration, Google SEO,
         and a free-trial funnel — built and delivered in 7 days. Free strategy call, no obligation.
       </p>

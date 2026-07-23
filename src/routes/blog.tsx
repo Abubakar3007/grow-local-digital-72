@@ -40,7 +40,7 @@ function BlogIndex() {
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">
             Growth guides for gyms & local businesses
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-white/70">
+          <p className="mx-auto mt-4 max-w-xl text-white/85">
             No fluff. Real tactics we use to help clients get more customers through
             websites, SEO, and WhatsApp.
           </p>

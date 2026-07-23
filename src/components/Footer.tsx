@@ -19,7 +19,7 @@ export function Footer() {
             </span>
             <span className="text-lg">{site.name}</span>
           </div>
-          <p className="mt-4 max-w-md text-sm text-white/60">{site.tagline}</p>
+          <p className="mt-4 max-w-md text-sm text-white/80">{site.tagline}</p>
         </div>
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Pages</h3>
@@ -42,7 +42,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-white/50 sm:flex-row sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-white/80 sm:flex-row sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} {site.name}. All rights reserved.</p>
           <p>Built for local businesses that want to grow.</p>
         </div>

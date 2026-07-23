@@ -83,7 +83,7 @@ function BlogPost() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <Link
             to="/blog"
-            className="inline-flex items-center gap-1 text-sm text-white/70 hover:text-white"
+            className="inline-flex items-center gap-1 text-sm text-white/85 hover:text-white"
           >
             <ArrowLeft className="h-4 w-4" /> All articles
           </Link>
@@ -91,13 +91,13 @@ function BlogPost() {
             <span className="inline-flex items-center gap-1 rounded-full bg-white/10 px-2.5 py-1 font-medium text-white">
               <Tag className="h-3 w-3" /> {post.category}
             </span>
-            <span className="inline-flex items-center gap-1 text-white/70">
+            <span className="inline-flex items-center gap-1 text-white/85">
               <Clock className="h-3 w-3" /> {post.readTime}
             </span>
-            <span className="inline-flex items-center gap-1 text-white/70">
+            <span className="inline-flex items-center gap-1 text-white/85">
               <Users className="h-3 w-3" /> For {post.audience}
             </span>
-            <span className="text-white/70">· {post.date}</span>
+            <span className="text-white/85">· {post.date}</span>
           </div>
           <h1 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
             {post.title}

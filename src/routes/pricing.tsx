@@ -62,7 +62,7 @@ function PricingPage() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-[color:var(--primary-glow)]">Pricing</p>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">Simple, honest pricing</h1>
-          <p className="mx-auto mt-5 max-w-2xl text-white/70">
+          <p className="mx-auto mt-5 max-w-2xl text-white/85">
             One-time payment. No monthly lock-ins. Choose the plan that fits your business today — you can always upgrade later.
           </p>
         </div>

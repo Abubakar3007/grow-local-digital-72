@@ -36,7 +36,7 @@ function PortfolioPage() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-[color:var(--primary-glow)]">Our work</p>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight sm:text-5xl">Websites that actually work for the business</h1>
-          <p className="mx-auto mt-5 max-w-2xl text-white/70">
+          <p className="mx-auto mt-5 max-w-2xl text-white/85">
             A few of our recent projects for local businesses across India.
           </p>
         </div>

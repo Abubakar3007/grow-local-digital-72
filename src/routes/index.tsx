@@ -117,7 +117,7 @@ function Home() {
                 Professional Website
               </span>
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-base text-white/70 sm:text-lg">
+            <p className="mx-auto mt-6 max-w-2xl text-base text-white/85 sm:text-lg">
               We design conversion-focused websites for gyms, salons, shops and
               local service providers. Look premium, build trust, and turn
               visitors into paying customers — in just 7 days.
@@ -149,7 +149,7 @@ function Home() {
               ].map((s) => (
                 <div key={s.v} className="text-center">
                   <div className="text-2xl font-bold sm:text-3xl">{s.k}</div>
-                  <div className="mt-1 text-xs text-white/60 sm:text-sm">{s.v}</div>
+                  <div className="mt-1 text-xs text-white/80 sm:text-sm">{s.v}</div>
                 </div>
               ))}
             </div>
@@ -227,7 +227,7 @@ function Home() {
                   <s.icon className="h-6 w-6" />
                 </div>
                 <h3 className="text-lg font-semibold">{s.title}</h3>
-                <p className="mt-2 text-sm text-white/60">{s.desc}</p>
+                <p className="mt-2 text-sm text-white/80">{s.desc}</p>
               </div>
             ))}
           </div>
@@ -380,7 +380,7 @@ function Home() {
           <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">
             Ready to get more customers?
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-white/70">
+          <p className="mx-auto mt-4 max-w-xl text-white/85">
             Book a free 15-minute consultation. We'll show you exactly what your business needs — no commitment.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
