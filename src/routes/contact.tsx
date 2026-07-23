@@ -12,9 +12,37 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact — WebDost" },
       { property: "og:description", content: "Contact us to start your website project." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: "https://grow-local-digital-72.lovable.app/contact" },
     ],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: "https://grow-local-digital-72.lovable.app/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "WebDost",
+          url: "https://grow-local-digital-72.lovable.app",
+          email: "bakardeveloper0007@gmail.com",
+          telephone: "+91 85959 25473",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "Noida 50",
+            addressLocality: "Noida",
+            addressRegion: "Delhi NCR",
+            addressCountry: "IN",
+          },
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              opens: "10:00",
+              closes: "20:00",
+            },
+          ],
+        }),
+      },
+    ],
   }),
   component: ContactPage,
 });
