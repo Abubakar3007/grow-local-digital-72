@@ -88,7 +88,7 @@ function BlogPost() {
       <section className="py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <div className="space-y-10">
-            {post.content.map((section, i) => (
+            {post.content.map((section: { heading: string; body: string }, i: number) => (
               <div key={i}>
                 <h2 className="text-2xl font-bold tracking-tight text-foreground">
                   {section.heading}
