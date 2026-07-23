@@ -1,0 +1,28 @@
+# WebDost
+
+> WebDost builds professional, mobile-first websites for Indian local businesses — gyms, salons, shops, cafes and service providers — with WhatsApp integration, Google SEO and lead-capture funnels. Launch in 7 days.
+
+## Pages
+
+- [Home](/): Overview, pricing snapshot and lead-capture CTAs.
+- [Services](/services): Website packages for gyms, shops, landing pages and SEO.
+- [Portfolio](/portfolio): Sample websites we've built for local businesses.
+- [Pricing](/pricing): Basic, Standard and Premium plans with feature comparison.
+- [About](/about): Who we are and who we serve.
+- [Contact](/contact): WhatsApp, phone, email and lead form.
+
+## Blog
+
+- [Why Every Gym Needs a Website in 2026](/blog/why-every-gym-needs-a-website-in-2026): Why Instagram alone won't fill your gym.
+- [Local SEO Explained](/blog/local-seo-for-small-business): Ranking on Google 'near me' searches.
+- [Website vs Instagram Page](/blog/website-vs-instagram-page): Which one actually grows your business.
+- [How Much Does a Business Website Cost in India](/blog/how-much-does-a-business-website-cost-in-india): Real 2026 pricing.
+- [WhatsApp Marketing for Local Business](/blog/whatsapp-marketing-for-local-business): Turn WhatsApp into a lead machine.
+- [10 Signs Your Website Is Losing Customers](/blog/10-signs-your-website-is-losing-customers): Fix the leaks.
+- [Gym Lead Generation Strategies](/blog/gym-lead-generation-strategies): 7 proven tactics.
+- [Mobile-First Design: Why It Matters](/blog/mobile-first-design-why-it-matters): Design for the phone first.
+- [10 Best Gym Website Design Examples](/blog/gym-website-design-examples): High-conversion fitness website design inspiration.
+
+## Optional
+
+- [Blog Index](/blog): All growth guides.
