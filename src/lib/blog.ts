@@ -11,6 +11,66 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "gym-website-design-examples",
+    title: "10 Best Gym Website Design Examples for High Conversion (2026)",
+    description:
+      "Real gym website design examples that turn visitors into paying members — layouts, colors, CTAs and lead funnels you can steal.",
+    category: "Web Design",
+    readTime: "8 min read",
+    date: "Jan 2026",
+    audience: "Gym owners",
+    content: [
+      {
+        heading: "What makes a gym website 'high converting'?",
+        body: "The best fitness website design isn't about flashy videos — it's about one clear promise, one obvious CTA (usually a free-trial or WhatsApp button), real member proof, and a mobile layout that loads in under 3 seconds. Every example below nails these fundamentals.",
+      },
+      {
+        heading: "1. Bold hero + single free-trial CTA",
+        body: "The homepage shows one transformation photo, a 5-word promise ('Get fit in 90 days'), and a single button — 'Book free trial'. No menu clutter. This alone lifts conversions 30–50% versus generic 'welcome to our gym' heroes.",
+      },
+      {
+        heading: "2. Class schedule above the fold",
+        body: "Local gyms that show today's classes on the homepage win the impulse visitor. Add a small 'Join today's 7 PM HIIT' button next to the schedule — it's the highest-clicked element on many sites we've built.",
+      },
+      {
+        heading: "3. Trainer profiles with certifications",
+        body: "Photos, first names, one specialty tag (weight loss, strength, yoga) and a certification badge. Trust jumps. Copy the layout used by top boutique studios — one card per trainer, WhatsApp icon linked to their personal chat.",
+      },
+      {
+        heading: "4. Member transformations as the hero social proof",
+        body: "Before/after images with the member's first name, duration, and a one-line quote. Google loves this content; visitors screenshot it and send to friends. Keep it real — stock transformations kill trust instantly.",
+      },
+      {
+        heading: "5. Pricing with a 'most popular' anchor",
+        body: "Three membership tiers with the middle one highlighted. Show what's included, not just the price. Add a 'still deciding?' WhatsApp button below the table for on-the-fence visitors.",
+      },
+      {
+        heading: "6. Google Map + directions button",
+        body: "Local gyms live and die by walk-in visits. Embed the map, add a big 'Get directions' button, and list nearby landmarks. Bonus: it boosts local SEO for 'gym near me' searches.",
+      },
+      {
+        heading: "7. Mobile-first sticky WhatsApp bar",
+        body: "80% of gym website visitors are on mobile at 8 PM deciding whether to sign up. A sticky WhatsApp bar at the bottom of every page — with a pre-filled 'Hi, I want a free trial' message — is the single highest-ROI feature you can add.",
+      },
+      {
+        heading: "8. Fast, minimal design",
+        body: "The best gym websites load in under 2 seconds on 4G. Skip auto-play videos, heavy sliders, and 12 fonts. Two fonts, five colors, one bold CTA per section. Speed converts.",
+      },
+      {
+        heading: "9. Reviews block pulled from Google",
+        body: "Show 4–6 real Google reviews with star ratings. Link the block to your full Google Business Profile. Social proof from a source visitors already trust closes the deal.",
+      },
+      {
+        heading: "10. FAQ + 'still have questions? WhatsApp us'",
+        body: "Answer the 6 questions every visitor asks (price, timings, trial, freezing, personal training, refund). End with a WhatsApp CTA so the undecided visitor becomes a lead — not a lost tab.",
+      },
+      {
+        heading: "Steal these — or let us build yours",
+        body: "We build gym websites with all 10 elements baked in — mobile-first, SEO-optimised, WhatsApp-integrated, live in 7 days. If you're a gym owner in India ready to fill classes on autopilot, book a free strategy call below.",
+      },
+    ],
+  },
+  {
     slug: "why-every-gym-needs-a-website-in-2026",
     title: "Why Every Gym Needs a Website in 2026 (Not Just Instagram)",
     description:
