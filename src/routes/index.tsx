@@ -27,7 +27,57 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "WebDost — Websites that Bring Customers" },
       { property: "og:description", content: "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://grow-local-digital-72.lovable.app/" },
+    ],
+    links: [{ rel: "canonical", href: "https://grow-local-digital-72.lovable.app/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "WebDost",
+          url: "https://grow-local-digital-72.lovable.app",
+          description:
+            "WebDost helps local Indian businesses grow with professional, mobile-first websites, SEO and WhatsApp lead funnels.",
+          email: "bakardeveloper0007@gmail.com",
+          telephone: "+91 85959 25473",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Noida",
+            addressRegion: "Delhi NCR",
+            addressCountry: "IN",
+          },
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "WebDost",
+          url: "https://grow-local-digital-72.lovable.app",
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            { q: "Why does my small business need a website?", a: "Customers Google your business before visiting. Without a website you lose trust and enquiries to competitors who show up online." },
+            { q: "How much does a website cost?", a: "Our plans start from ₹2,999 one-time. That's less than one week of print ads — and works for you 24/7 forever." },
+            { q: "How long does it take?", a: "Most websites go live within 7 days after we receive your content. Rush delivery available in 48 hours." },
+            { q: "Will it work on mobile?", a: "Yes. Every website we build is mobile-first and loads fast on 4G. 70%+ of your visitors will come from phones." },
+            { q: "Do you provide content and photos?", a: "We help write copy in English or Hinglish and can source stock images. Your own photos work best — we polish them for the web." },
+            { q: "What happens after launch?", a: "We include free support and small edits for the first month. After that, care plans start at ₹499/month." },
+          ].map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }),
+      },
     ],
   }),
   component: Home,

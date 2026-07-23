@@ -18,9 +18,10 @@ export const Route = createFileRoute("/blog")({
         content: "Growth guides for gym owners and local businesses.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://grow-local-digital-72.lovable.app/blog" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "/blog" }],
+    links: [{ rel: "canonical", href: "https://grow-local-digital-72.lovable.app/blog" }],
   }),
   component: BlogIndex,
 });

@@ -22,7 +22,7 @@ export function Footer() {
           <p className="mt-4 max-w-md text-sm text-white/60">{site.tagline}</p>
         </div>
         <div>
-          <h4 className="mb-3 text-sm font-semibold text-white">Pages</h4>
+          <h3 className="mb-3 text-sm font-semibold text-white">Pages</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/services" className="hover:text-white">Services</Link></li>
             <li><Link to="/portfolio" className="hover:text-white">Portfolio</Link></li>
@@ -33,7 +33,7 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="mb-3 text-sm font-semibold text-white">Contact</h4>
+          <h3 className="mb-3 text-sm font-semibold text-white">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2"><Phone className="h-4 w-4" /> {site.phone}</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4" /> {site.email}</li>
