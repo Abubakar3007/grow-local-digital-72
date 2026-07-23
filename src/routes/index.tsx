@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
           "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days.",
       },
       { property: "og:title", content: "PixelGrow Digital — Websites that Bring Customers" },
-      { property: "og:description", content: "Professional websites for local businesses, gyms and shops. Launch in 7 days." },
+      { property: "og:description", content: "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
     ],
