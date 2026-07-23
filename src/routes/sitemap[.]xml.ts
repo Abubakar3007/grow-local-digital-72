@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
+import { posts } from "@/lib/blog";
 
 const BASE_URL = "";
 
@@ -22,6 +23,9 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/about", changefreq: "monthly", priority: "0.6" },
           { path: "/contact", changefreq: "monthly", priority: "0.7" },
         ];
+        for (const p of posts) {
+          entries.push({ path: `/blog/${p.slug}`, changefreq: "monthly", priority: "0.6" });
+        }
         const urls = entries
           .map(
             (e) =>
