@@ -18,13 +18,13 @@ import { whatsappLink } from "@/lib/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WebDost — Websites that Bring Customers" },
+      { title: "Krevora Digital — Websites that Bring Customers" },
       {
         name: "description",
         content:
           "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days.",
       },
-      { property: "og:title", content: "WebDost — Websites that Bring Customers" },
+      { property: "og:title", content: "Krevora Digital — Websites that Bring Customers" },
       { property: "og:description", content: "Get a professional website for your gym, salon, shop or business. Modern design, mobile-ready, SEO optimized. Launch in 7 days." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://grow-local-digital-72.lovable.app/" },
@@ -36,16 +36,16 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "WebDost",
+          name: "Krevora Digital",
           url: "https://grow-local-digital-72.lovable.app",
           description:
-            "WebDost helps local Indian businesses grow with professional, mobile-first websites, SEO and WhatsApp lead funnels.",
+            "Krevora Digital helps local Indian businesses grow with professional, mobile-first websites, SEO and WhatsApp lead funnels.",
           email: "bakardeveloper0007@gmail.com",
           telephone: "+91 85959 25473",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "Noida",
-            addressRegion: "Delhi NCR",
+            addressLocality: "Noida & Azamgarh",
+            addressRegion: "Delhi NCR & Lucknow",
             addressCountry: "IN",
           },
         }),
@@ -55,7 +55,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "WebDost",
+          name: "Krevora Digital",
           url: "https://grow-local-digital-72.lovable.app",
         }),
       },
@@ -120,7 +120,7 @@ function Home() {
             <p className="mx-auto mt-6 max-w-2xl text-base text-white/85 sm:text-lg">
               We design conversion-focused websites for gyms, salons, shops and
               local service providers. Look premium, build trust, and turn
-              visitors into paying customers — in just 7 days.
+              visitors into paying customers — in just 5 days.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
               <Link
@@ -144,7 +144,7 @@ function Home() {
             <div className="mt-14 grid grid-cols-3 gap-6 border-t border-white/10 pt-8 sm:gap-10">
               {[
                 { k: "50+", v: "Websites Delivered" },
-                { k: "7 Days", v: "Average Launch" },
+                { k: "5 Days", v: "Average Launch" },
                 { k: "4.9/5", v: "Client Rating" },
               ].map((s) => (
                 <div key={s.v} className="text-center">
@@ -210,7 +210,7 @@ function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-semibold uppercase tracking-wider text-[color:var(--primary-glow)]">Simple 3-step process</p>
-            <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">From idea to live website in 7 days</h2>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">From idea to live website in 5 days</h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {[
