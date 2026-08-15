@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, Sparkles } from "lucide-react";
 import { site } from "@/lib/site";
+import Logo from "../assets/logo.png"
 
 const nav = [
   { to: "/", label: "Home" },
@@ -26,19 +27,18 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled
-          ? "border-b border-border/60 bg-background/80 backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${scrolled
+        ? "border-b border-border/60 bg-background/80 backdrop-blur-xl"
+        : "bg-transparent"
+        }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2 font-bold" onClick={() => setOpen(false)}>
           <span
             className="grid h-9 w-9 place-items-center rounded-xl text-primary-foreground shadow-[var(--shadow-glow)]"
-            style={{ background: "var(--gradient-primary)" }}
+            style={{ background: "white" }}
           >
-            <Sparkles className="h-5 w-5" />
+            <img src={Logo} alt="logo" />
           </span>
           <span className="text-lg tracking-tight">{site.name}</span>
         </Link>

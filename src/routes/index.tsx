@@ -97,12 +97,12 @@ function Home() {
           alt=""
           aria-hidden
           width={1920}
-          height={1200}
+          height={1400}
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-30 mix-blend-screen"
         />
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,transparent,var(--dark-bg))]" />
 
-        <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
+        <div className="mx-auto max-w-7xl px-4 py-20">
           <div className="mx-auto max-w-4xl text-center animate-fade-in">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium backdrop-blur">
               <Sparkles className="h-3.5 w-3.5" />
@@ -250,11 +250,10 @@ function Home() {
             ].map((p) => (
               <div
                 key={p.name}
-                className={`relative rounded-2xl border p-8 shadow-[var(--shadow-card)] ${
-                  p.featured
-                    ? "border-primary bg-card ring-2 ring-primary/30"
-                    : "border-border bg-card"
-                }`}
+                className={`relative rounded-2xl border p-8 shadow-[var(--shadow-card)] ${p.featured
+                  ? "border-primary bg-card ring-2 ring-primary/30"
+                  : "border-border bg-card"
+                  }`}
               >
                 {p.featured && (
                   <div
@@ -280,9 +279,8 @@ function Home() {
                 </ul>
                 <Link
                   to="/contact"
-                  className={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold transition-transform hover:scale-[1.02] ${
-                    p.featured ? "text-primary-foreground" : "border border-border bg-background text-foreground hover:bg-secondary"
-                  }`}
+                  className={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold transition-transform hover:scale-[1.02] ${p.featured ? "text-primary-foreground" : "border border-border bg-background text-foreground hover:bg-secondary"
+                    }`}
                   style={p.featured ? { background: "var(--gradient-primary)" } : undefined}
                 >
                   Choose {p.name}

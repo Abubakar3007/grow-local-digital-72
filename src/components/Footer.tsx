@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
 import { Sparkles, Mail, Phone, MapPin } from "lucide-react";
 import { site } from "@/lib/site";
+import Logo from "../assets/logo.png"
 
 export function Footer() {
   return (
     <footer
-      className="mt-24 text-white/80"
+      className="text-white/80"
       style={{ background: "var(--dark-bg)" }}
     >
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4 lg:px-8">
@@ -13,9 +14,9 @@ export function Footer() {
           <div className="flex items-center gap-2 font-bold text-white">
             <span
               className="grid h-9 w-9 place-items-center rounded-xl"
-              style={{ background: "var(--gradient-primary)" }}
+              style={{ background: "white" }}
             >
-              <Sparkles className="h-5 w-5" />
+              <img src={Logo} alt="logo" />
             </span>
             <span className="text-lg">{site.name}</span>
           </div>
@@ -23,14 +24,18 @@ export function Footer() {
         </div>
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Pages</h3>
-          <ul className="space-y-2 text-sm">
-            <li><Link to="/services" className="hover:text-white">Services</Link></li>
-            <li><Link to="/portfolio" className="hover:text-white">Portfolio</Link></li>
-            <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
-            <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
-            <li><Link to="/about" className="hover:text-white">About</Link></li>
-            <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
-          </ul>
+          <div className="flex gap-12">
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/services" className="hover:text-white">Services</Link></li>
+              <li><Link to="/portfolio" className="hover:text-white">Portfolio</Link></li>
+              <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
+            </ul>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
+              <li><Link to="/about" className="hover:text-white">About</Link></li>
+              <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
+            </ul>
+          </div>
         </div>
         <div>
           <h3 className="mb-3 text-sm font-semibold text-white">Contact</h3>
